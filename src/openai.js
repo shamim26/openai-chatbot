@@ -7,7 +7,7 @@ const openai = new OpenAI({
 
 export const sendRes = async (prompt) => {
   const response = await openai.chat.completions.create({
-    model: "gpt-3.5-turbo",
+    model: "gpt-4",
     messages: [
       {
         role: "user",
